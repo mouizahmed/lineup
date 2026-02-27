@@ -15,13 +15,13 @@ export function CtaStrip() {
         </p>
         <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
           <Button asChild size="lg">
-            <Link href="/auth/sign-up">
+            <Link href="/register">
               Get Started Free
               <ArrowRight />
             </Link>
           </Button>
           <Button asChild variant="link">
-            <Link href="/auth/sign-in">
+            <Link href="/login">
               Already have an account? Sign in
             </Link>
           </Button>

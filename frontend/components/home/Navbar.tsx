@@ -13,10 +13,10 @@ export function Navbar() {
         </Link>
         <nav className="flex items-center gap-2">
           <Button asChild variant="ghost" size="sm">
-            <Link href="/auth/sign-in">Sign in</Link>
+            <Link href="/login">Sign in</Link>
           </Button>
           <Button asChild size="sm">
-            <Link href="/auth/sign-up">Get Started</Link>
+            <Link href="/register">Get Started</Link>
           </Button>
         </nav>
       </div>
